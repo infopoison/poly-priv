@@ -1,0 +1,70 @@
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (keep structure, not contents)
+data/*.jsonl
+data/*.parquet
+data/*.csv
+data/*.json
+!data/.gitkeep
+
+# Dev data (analysis outputs, collected data)
+dev/**/*.parquet
+dev/**/*.csv
+dev/**/*.jsonl
+dev/**/order_history_batches/
+dev/**/oos_collection/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter (if used in dev)
+.ipynb_checkpoints/
+*.ipynb

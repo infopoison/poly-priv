@@ -1,0 +1,32 @@
+# Exclude dev code from production image
+dev/
+
+# Exclude data files
+data/
+
+# Git
+.git/
+.gitignore
+
+# Environment files (secrets injected via Railway)
+.env
+.env.*
+
+# Documentation
+README.md
+*.md
+
+# IDE
+.vscode/
+.idea/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+venv/
+.venv/
+
+# OS
+.DS_Store
